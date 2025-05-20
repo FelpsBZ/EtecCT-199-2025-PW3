@@ -1,0 +1,16 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10dvh;
+    width:95dvw;
+    max-width: 400px;
+    height:90dvh;
+    max-height: 500px;
+    background-color: #000105;
+    border-radius: 16px;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    gap: 1.5%;
+}

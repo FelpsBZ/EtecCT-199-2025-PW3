@@ -1,0 +1,41 @@
+.keyboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:100%;
+    height: 100%;  
+    gap: 1%;
+}
+.container button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:15%;
+    aspect-ratio: 1.3/1;
+    background-color: #0000004b;
+    color: #f3f3f3;
+    font-size: 200%;
+    font-weight: bold;
+    transition: 0.2s;
+    border: none;
+}
+.container button:hover{
+    background-color: #041c2c;
+    color: white;
+}
+
+.equals {
+    background-color: aqua;
+}
